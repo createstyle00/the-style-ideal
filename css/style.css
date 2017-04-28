@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Italianno|Roboto:100');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   
+  
+}
+.nav-header {
+  width: 100%;
+  margin: auto;
+  
+}
+
+.navigation {
+  background-color: white;
+  height: auto;
+  text-align: center;
+  position: center; 
+  left: 0;
+  top: 0;
+  
+}
+
+.navigation ul {
+  padding: 0;
+  text-align: center;
+  
+}
+
+.navigation li {
+  color: #666666;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px;
+  font-weight: 100px;
+  letter-spacing: 2px;
+  margin: 20px;
+  text-align: center;
+}
+.navigation li:first-child {
+  margin-left: 60px;
+}
+.navigation li a:hover {
+  color: lightgrey;
+}
+a {
+    text-decoration: none;
+    color: #666666;
+}
+/*styleideal navagation bar on all 6 pages */
+    
+.header {
+  background-image: url("../images/brown%20black.jpg");
+  background-position: 50%;
+  background-size:auto;
+  height: 600px;
+  width:100%;
+  margin: auto;
+  animation: slide-show-main 15s infinite;
+}
+@keyframes slide-show-main{
+  0% {
+    background-image:url(/images/brown%20black.jpg);
+  }
+  25% {
+    background-image:url(../images/style-v-neck.jpg);
+  }
+  50% {
+    background-image:url(../images/darkskin-lady.png);
+    }
+  75% {
+    background-image:url(../images/solo-women.png);
+  }
+   100% {
+    background-image:url(../images/style-ring.jpg);
+  }  
+}
+
+.header-text {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 30%;
+  width: 60%;
+}
+.header-text h1 {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 100px;
+  line-height: 80px;
+  letter-spacing: 4px;  
+  margin: 0
+}
+
+.header-text h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 28px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+.container{
+  margin-top: 80px;
+  width:100%;  
+  border-top: solid;
+  border-top-style: double;
+}
+.col-3 {
+    width: 31.33%;
+    float: left;
+    margin:1%;
+  
+}
+.col-3 img{  
+    width: 100%;
+    height: 400px;
+    margin:auto;
+    display:block;
+    margin-top:80px;
+    border-radius:50%;
+    transition: .20s;
+    text-align: center;
+   } 
+.col-3 img:hover{  
+    -webkit-filter:opacity(65%);
+    filter: opacity(65%);
+    }     
+.col-3 p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    color:black;
+    margin-top:10px;
+    transition: .5s;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+ 
+.col-3 p a:hover {
+  color: lightgrey;
+}
+/*clicks to seperate pages*/
+.about-header{
+    text-align: center;
+} 
+.about-header img{
+    height: 800px;
+    width: 600px;    
+}
+
+
+.content {
+  text-align: center;
+  margin-top: 80px;
+  border-top: solid;
+  border-top-style: double;
+  }
+
+.about-content{
+  text-align: center;
+   
+}
+.about-content p{
+ color: #666666;
+ font-family: 'Italianno', cursive;  
+ font-size: 100px;
+ padding:100px;
+ }
+/*font changes */
+.container2 {
+    width:100%;
+}
+.contact-me {
+    margin-top: 80px;
+    border-top: solid;
+    border-top-style: double;
+    
+}
+.contact-me img {
+    width: 40%;
+    border-radius: 50%;
+    margin-top: 80px;
+    float:left;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.contact-info {
+    float:left;
+    width: 20%;
+    margin-top: 350px;
+}
+.contact-info p {
+   color: #666666;
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 2px; 
+   padding-left: 30px;
+}
+.contact-info p a:hover {
+  color: lightgrey;
+}
+.style{
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+.style img{
+    width:600px;
+    height: 800px;
+}
+/*styleideal style pictures for front page col-3 */
+.header-contact {
+  background-image: url("../images/brown%20black.jpg");
+  background-position: 50%;
+  background-size:auto;
+  height: 600px;
+  width:100%;
+  margin: auto;
+  animation: slide-show-main2 15s infinite;
+}
+@keyframes slide-show-main2{
+  0% {
+    background-image:url(../images/style-black-side.jpg);
+  }
+  25% {
+    background-image:url(../images/style-v-neck.jpg);
+  }
+  50% {
+    background-image:url(../images/style-ring.jpg);
+    }
+  75% {
+    background-image:url(../images/solo-women.png);
+  }
+   100% {
+    background-image:url(../images/style-net-rope.jpg);
+  }  
+}
+/*animations for contact page has different pictures added from front page */
+
